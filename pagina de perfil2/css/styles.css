@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    background-color: white;
+    height: 60px;
+    width: 1420px;
+    display: flex;
+}
+
+.izquierda{
+    background-color: white;
+    height: 700px;
+    width: 600px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.franja{
+    background-color: aqua;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.foto_perfil{
+    background-image: url(../img/grinchtocat.gif);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    border: 2px solid black;
+    top: -30px;
+    left: 30px;
+}
+
+.texto{
+    background-color: white;
+    height: 650px;
+}
+
+.edit_perfil{
+    color: rgb(49, 49, 133);
+    font-size: 25px;
+    display: flex;
+}
+
+.sub_texto{
+    margin-top: 180px;
+}
+
+.derecha{
+    background-color: white;
+    height: 700px;
+    width: 400px;
+    margin-top: 60px;
+    margin-left: 350px;
+}
+
+.solicitud{
+    background-color: white;
+    height: 260px;
+}
+
+.soli_conexion{
+    display: flex;
+    justify-content: center;
+}
+
+.marco_soli{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.contenedor_soli{
+    height: 203px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px
+}
+
+.soli1{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.soli2{
+    margin-bottom: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conexiones{
+    background-color: white;
+    height: 440px;
+}
+
+.menu{
+    background-color: rgb(92, 92, 92);
+    height: 70px;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 15px;
+}
+
+.cerrar{
+    background-color: aqua;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.perfil{
+    margin-right: 500px;
+    font-size: 40px;
+}
+
+.tus_conexiones{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.perfiles{
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.texto_perfil{
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.borde_conexiones{
+    border: 2px solid black;
+    border-radius: 50%;
+}
